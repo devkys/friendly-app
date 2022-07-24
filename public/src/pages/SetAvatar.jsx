@@ -48,6 +48,7 @@ export default function SetAvatar() {
         }
     }
   };
+  
   useEffect(() => {
     async function fetchData() {
       const data = [];
@@ -63,6 +64,7 @@ export default function SetAvatar() {
     }
     fetchData();
   }, []);
+  
   return (
     <>
     {

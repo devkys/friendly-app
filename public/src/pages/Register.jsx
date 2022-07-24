@@ -161,7 +161,7 @@ const FormContainer = styled.div`
   input, select {
     padding: 0.5rem;
     width: 100%;
-   font-size: 1rem;
+   font-size: 1.5rem;
    &:focus {
     outline: none;
     border: 0.2rem solid #9cbdec;
@@ -188,6 +188,4 @@ const FormContainer = styled.div`
         text-decoration: none;
     }
   }
-
-
 `;

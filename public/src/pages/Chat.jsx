@@ -35,6 +35,7 @@ export default function Chat() {
     }
     fetchData();
   }, [currentUser]);
+  
   return (
     <Container>
       <div className="container">
